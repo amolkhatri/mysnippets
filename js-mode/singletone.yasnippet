@@ -1,0 +1,28 @@
+# -*- mode: snippet -*-
+# name: singleton
+# key: singleton
+# binding: direct-keybinding
+# --
+
+var Singleton = (function(){
+    var instance;
+
+    function createIntance(){
+     var object = new Object("I am singleton");
+     return instance;
+    }
+    
+    return {
+    	   getInstance: function(){
+	   	if(!instance){
+		  instance = createInstance()
+		}
+   	   	return instance;
+	   }
+
+
+    }
+
+
+})
+
