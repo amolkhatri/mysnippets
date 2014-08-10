@@ -1,0 +1,4 @@
+mysnippets
+==========
+
+Yasnippets for emacs
