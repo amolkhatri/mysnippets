@@ -1,0 +1,16 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: module
+# key: module
+# binding: direct-keybinding
+# --
+var $1 = (function(){
+    var privateMember = 2;
+
+    var md = {};
+    
+    md.$2 = function(){
+    	  $3
+    }
+
+    return md
+})();
